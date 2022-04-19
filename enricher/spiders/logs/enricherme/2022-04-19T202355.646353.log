@@ -1,0 +1,30 @@
+2022-04-19 20:23:56 [scrapy] DEBUG: Crawled (200) <GET https://pypi.org/robots.txt> (referer: None)
+2022-04-19 20:23:56 [scrapy] DEBUG: Crawled (200) <GET https://pypi.org/project/scrapyrt/> (referer: None)
+2022-04-19 20:23:56 [scrapy] DEBUG: Scraped from <200 https://pypi.org/project/scrapyrt/>
+{'page': 'https://pypi.org/project/scrapyrt/', 'responseStatus': 200, 'metaDescription': 'Put Scrapy spiders behind an HTTP API', 'loadingTime': 0.14519619941711426, 'H1': '\n        scrapyrt 0.13.0\n      ', 'discord_urls': None, 'twitter_urls': 'https://twitter.com/PyPI', 'telegram_urls': '', 'ticktok_urls': None, 'instagram_urls': None, 'facebook_urls': None, 'youtube_urls': None, 'github_urls': 'https://github.com/scrapinghub/scrapyrt', 'linkedin_urls': [], 'email': 'info@scrapinghub.com'}
+2022-04-19 20:23:56 [scrapy] INFO: Closing spider (finished)
+2022-04-19 20:23:56 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 527,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 13904,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 2,
+ 'elapsed_time_seconds': 0.85226,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 4, 19, 18, 23, 56, 614886),
+ 'item_scraped_count': 1,
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 7,
+ 'memusage/max': 55062528,
+ 'memusage/startup': 55062528,
+ 'response_received_count': 2,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 4, 19, 18, 23, 55, 762626)}
+2022-04-19 20:23:56 [scrapy] INFO: Spider closed (finished)
